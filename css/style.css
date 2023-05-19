@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.topbar {
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid #F3EDED;
+}
+
+.topbar .topbar-main,
+.topbar .topbar-main .topbar-contact  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topbar .topbar-main .topbar-contact .topbar-icon a  {
+    margin-left: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;  
+    text-decoration: none;
+    color: #8A8888;
+}
+
+.topbar .topbar-main .topbar-contact .topbar-btn a  {
+    text-decoration: none;
+    background: #86BE3F;
+    border-radius: 6px;
+    padding: 14px 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #FFFFFF;
+    margin-left: 40px;
+
+}
+.navbar {
+    padding: 25px 0;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px; 
+    color: #8A8888;
+    padding: 0px;
+    margin-right: 78.33px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #86BE3F;
+}
+
+.navbar .navbar-nav .nav-item .active {
+    color: #86BE3F;
+}
+
+.hero {
+    width: 100%;
+    padding: 276px 0px;
+    background-image: url('../images/hero-main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hero .hero-content h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px; 
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.hero .hero-content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px; 
+    color: #FFFFFF;
+    opacity: 0.9;
+}
